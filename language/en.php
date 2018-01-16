@@ -1,0 +1,28 @@
+<?php
+  $nyelv=array( "Home",
+                "upload",
+                "Upload",
+                "delete",
+                "Delete",
+                "Language",
+                "Unknown",
+                "Size",
+                "Wrong password!",
+                "The ID must be a number!",
+                "The requested page could <span style='color:red';>not</span> be found!",
+                "Deleted! ID: ",
+                "The code's ID",
+                "Password",
+                "Delete",
+                "Error! The name's max length is 100 chars!",
+                "The code's name",
+                "The code",
+                "Submit",
+                "Choose a code!",
+                "This code cannot be found!",
+                "This code has been <span style='color:red'>deleted</span>!",
+                "programs",
+                "Programs",
+                "<h3>The programs made by me:</h3>"
+              )
+?>

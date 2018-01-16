@@ -1,0 +1,15 @@
+DirectoryIndex swag.php
+Options -Indexes
+Options +FollowSymlinks
+RewriteEngine on
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.pinkman\.pe\.hu [NC]
+RewriteRule ^(.*)$ http://pinkman.pe.hu/$1 [R=301]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)$ swag.php?page=$1 [L]
+ErrorDocument 400 http://pinkman.pe.hu/error
+ErrorDocument 401 http://pinkman.pe.hu/error
+ErrorDocument 403 http://pinkman.pe.hu/error
+ErrorDocument 404 http://pinkman.pe.hu/error
+ErrorDocument 500 http://pinkman.pe.hu/error

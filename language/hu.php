@@ -1,0 +1,28 @@
+<?php
+  $nyelv=array( "Kezdőlap",
+                "feltoltes",
+                "Feltöltés",
+                "torles",
+                "Törlés",
+                "Nyelv",
+                "Ismeretlen",
+                "Méret",
+                "Rossz jelszó!",
+                "Az ID szám legyen!",
+                "A kért oldal <span style='color:red';>nem</span> található!",
+                "Törölve! ID: ",
+                "A kód ID-je",
+                "Jelszó",
+                "Törlés",
+                "Hiba! A név max. 100 karakter hosszú lehet!",
+                "A kód neve",
+                "A forráskód",
+                "Kész",
+                "Válassz egy forráskódot!",
+                "Ez a kód nem található!",
+                "Ez a kód <span style='color:red'>törölve</span> lett!",
+                "programok",
+                "Programok",
+                "<h3>Az általam készített programok:</h3>"
+              )
+?>
