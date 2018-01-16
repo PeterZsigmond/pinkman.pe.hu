@@ -1,4 +1,4 @@
-# pinkman.pe.hu
+# About
 
 These are the files of [pinkman.pe.hu]. It was my first PHP project, in 2016.
 
